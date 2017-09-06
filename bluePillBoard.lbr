@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.025" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="BLUE_PILL_BOARD">
+<wire x1="0" y1="0" x2="22" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="52" width="0.127" layer="21"/>
+<wire x1="0" y1="52" x2="22" y2="52" width="0.127" layer="21"/>
+<wire x1="22" y1="52" x2="22" y2="0" width="0.127" layer="21"/>
+<pad name="B12" x="3.5" y="50.76" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B13" x="3.5" y="48.22" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B14" x="3.5" y="45.65" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B15" x="3.5" y="43.14" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A8" x="3.5" y="40.6" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A9" x="3.5" y="38.06" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A10" x="3.5" y="35.52" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A11" x="3.5" y="32.98" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A12" x="3.5" y="30.44" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A15" x="3.5" y="27.9" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B3" x="3.5" y="25.36" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B4" x="3.5" y="22.82" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B5" x="3.5" y="20.28" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B6" x="3.5" y="17.74" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B7" x="3.5" y="15.2" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B8" x="3.5" y="12.66" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B9" x="3.5" y="10.12" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="5V@1" x="3.5" y="7.5" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="GND@1" x="3.5" y="5.04" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="3.3V@1" x="3.5" y="2.5" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="VB" x="18.74" y="2.5" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="C13" x="18.74" y="5.04" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="C14" x="18.74" y="7.58" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="C15" x="18.74" y="10.12" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A0" x="18.74" y="12.66" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A1" x="18.74" y="15.2" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A2" x="18.74" y="17.74" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A3" x="18.74" y="20.28" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A4" x="18.74" y="22.82" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A5" x="18.74" y="25.36" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A6" x="18.74" y="27.9" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A7" x="18.74" y="30.44" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B0" x="18.74" y="32.98" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B1" x="18.74" y="35.52" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B10" x="18.74" y="38.06" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="B11" x="18.74" y="40.6" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="RESET" x="18.74" y="43.14" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="3.3V@2" x="18.74" y="45.68" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="GND@2" x="18.74" y="48.22" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="GND@3" x="18.74" y="50.76" drill="0.8" diameter="1.778" shape="square"/>
+<text x="7.62" y="49.53" size="1.27" layer="21">Blue Pill</text>
+<hole x="3.5" y="50.75" drill="0.6"/>
+<hole x="3.525" y="48.225" drill="0.6"/>
+<hole x="3.5" y="45.65" drill="0.6"/>
+<hole x="3.5" y="43.15" drill="0.6"/>
+<hole x="3.475" y="40.6" drill="0.6"/>
+<hole x="3.475" y="38.05" drill="0.6"/>
+<hole x="3.5" y="35.525" drill="0.6"/>
+<hole x="3.5" y="33" drill="0.6"/>
+<hole x="3.5" y="30.425" drill="0.6"/>
+<hole x="3.5" y="27.875" drill="0.6"/>
+<hole x="3.5" y="25.375" drill="0.6"/>
+<hole x="3.525" y="22.825" drill="0.6"/>
+<hole x="3.525" y="20.325" drill="0.6"/>
+<hole x="3.5" y="17.75" drill="0.6"/>
+<hole x="3.525" y="15.175" drill="0.6"/>
+<hole x="3.5" y="12.675" drill="0.6"/>
+<hole x="3.5" y="10.1" drill="0.6"/>
+<hole x="3.475" y="7.5" drill="0.6"/>
+<hole x="3.5" y="5.05" drill="0.6"/>
+<hole x="3.525" y="2.5" drill="0.6"/>
+<hole x="18.75" y="2.525" drill="0.6"/>
+<hole x="18.775" y="5.075" drill="0.6"/>
+<hole x="18.725" y="7.6" drill="0.6"/>
+<hole x="18.75" y="10.1" drill="0.6"/>
+<hole x="18.725" y="12.65" drill="0.6"/>
+<hole x="18.75" y="15.2" drill="0.6"/>
+<hole x="18.75" y="17.75" drill="0.6"/>
+<hole x="18.75" y="20.275" drill="0.6"/>
+<hole x="18.75" y="22.825" drill="0.6"/>
+<hole x="18.75" y="25.35" drill="0.6"/>
+<hole x="18.725" y="27.9" drill="0.6"/>
+<hole x="18.75" y="30.425" drill="0.6"/>
+<hole x="18.725" y="33" drill="0.6"/>
+<hole x="18.75" y="35.525" drill="0.6"/>
+<hole x="18.725" y="38.075" drill="0.6"/>
+<hole x="18.75" y="40.6" drill="0.6"/>
+<hole x="18.725" y="43.15" drill="0.6"/>
+<hole x="18.75" y="45.675" drill="0.6"/>
+<hole x="18.75" y="48.225" drill="0.6"/>
+<hole x="18.75" y="50.75" drill="0.6"/>
+</package>
+<package name="BLUE_PILL_FOR_LORA">
+<wire x1="-11.43" y1="-27.94" x2="10.57" y2="-27.94" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-27.94" x2="-11.43" y2="24.06" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="24.06" x2="10.57" y2="24.06" width="0.127" layer="21"/>
+<wire x1="10.57" y1="24.06" x2="10.57" y2="-27.94" width="0.127" layer="21"/>
+<pad name="GND@1" x="7.31" y="-22.9" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="3.3V@1" x="7.31" y="-25.44" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A4" x="-7.93" y="-5.12" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A5" x="-7.93" y="-2.58" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A6" x="-7.93" y="-0.04" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="A7" x="-7.93" y="2.5" drill="0.8" diameter="1.778" shape="square"/>
+<text x="-3.81" y="21.59" size="1.27" layer="21">Blue Pill</text>
+</package>
+</packages>
+<symbols>
+<symbol name="BLUE_PILL_BOARD">
+<wire x1="-12.7" y1="27.94" x2="12.7" y2="27.94" width="0.254" layer="94"/>
+<wire x1="12.7" y1="27.94" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="27.94" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-25.4" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
+<pin name="B12" x="-17.78" y="25.4" visible="pin" length="middle"/>
+<pin name="B13" x="-17.78" y="22.86" visible="pin" length="middle"/>
+<pin name="B14" x="-17.78" y="20.32" visible="pin" length="middle"/>
+<pin name="B15" x="-17.78" y="17.78" visible="pin" length="middle"/>
+<pin name="A8" x="-17.78" y="15.24" visible="pin" length="middle"/>
+<pin name="A9" x="-17.78" y="12.7" visible="pin" length="middle"/>
+<pin name="A10" x="-17.78" y="10.16" visible="pin" length="middle"/>
+<pin name="A11" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="A12" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="A15" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="B3" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="B4" x="-17.78" y="-2.54" visible="pin" length="middle"/>
+<pin name="B5" x="-17.78" y="-5.08" visible="pin" length="middle"/>
+<pin name="B6" x="-17.78" y="-7.62" visible="pin" length="middle"/>
+<pin name="B7" x="-17.78" y="-10.16" visible="pin" length="middle"/>
+<pin name="B8" x="-17.78" y="-12.7" visible="pin" length="middle"/>
+<pin name="B9" x="-17.78" y="-15.24" visible="pin" length="middle"/>
+<pin name="5V@1" x="-17.78" y="-17.78" visible="pin" length="middle"/>
+<pin name="GND@1" x="-17.78" y="-20.32" visible="pin" length="middle" direction="pwr"/>
+<pin name="3.3V@1" x="-17.78" y="-22.86" visible="pin" length="middle" direction="pwr"/>
+<pin name="VB" x="17.78" y="-22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="C13" x="17.78" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="C14" x="17.78" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="C15" x="17.78" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="A0" x="17.78" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="A1" x="17.78" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="A2" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="A3" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="A4" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="A5" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="A6" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="A7" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="B0" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="B1" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="B10" x="17.78" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="B11" x="17.78" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="RESET" x="17.78" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="3.3V@2" x="17.78" y="20.32" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND@2" x="17.78" y="22.86" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND@3" x="17.78" y="25.4" visible="pin" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="BLUE_PILL_FOR_LORA">
+<wire x1="-12.7" y1="25.4" x2="12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="25.4" x2="12.7" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="25.4" x2="-12.7" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-27.94" x2="12.7" y2="-27.94" width="0.254" layer="94"/>
+<pin name="GND@1" x="-17.78" y="-22.86" visible="pin" length="middle" direction="pwr"/>
+<pin name="3.3V@1" x="-17.78" y="-25.4" visible="pin" length="middle" direction="pwr"/>
+<pin name="A4" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="A5" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="A6" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="A7" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BLUE_PILL_BOARD">
+<gates>
+<gate name="G$1" symbol="BLUE_PILL_BOARD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BLUE_PILL_BOARD">
+<connects>
+<connect gate="G$1" pin="3.3V@1" pad="3.3V@1"/>
+<connect gate="G$1" pin="3.3V@2" pad="3.3V@2"/>
+<connect gate="G$1" pin="5V@1" pad="5V@1"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A10" pad="A10"/>
+<connect gate="G$1" pin="A11" pad="A11"/>
+<connect gate="G$1" pin="A12" pad="A12"/>
+<connect gate="G$1" pin="A15" pad="A15"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="A8" pad="A8"/>
+<connect gate="G$1" pin="A9" pad="A9"/>
+<connect gate="G$1" pin="B0" pad="B0"/>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="B10" pad="B10"/>
+<connect gate="G$1" pin="B11" pad="B11"/>
+<connect gate="G$1" pin="B12" pad="B12"/>
+<connect gate="G$1" pin="B13" pad="B13"/>
+<connect gate="G$1" pin="B14" pad="B14"/>
+<connect gate="G$1" pin="B15" pad="B15"/>
+<connect gate="G$1" pin="B3" pad="B3"/>
+<connect gate="G$1" pin="B4" pad="B4"/>
+<connect gate="G$1" pin="B5" pad="B5"/>
+<connect gate="G$1" pin="B6" pad="B6"/>
+<connect gate="G$1" pin="B7" pad="B7"/>
+<connect gate="G$1" pin="B8" pad="B8"/>
+<connect gate="G$1" pin="B9" pad="B9"/>
+<connect gate="G$1" pin="C13" pad="C13"/>
+<connect gate="G$1" pin="C14" pad="C14"/>
+<connect gate="G$1" pin="C15" pad="C15"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="VB" pad="VB"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BLUE_PILL_FOR_LORA">
+<gates>
+<gate name="G$1" symbol="BLUE_PILL_FOR_LORA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BLUE_PILL_FOR_LORA">
+<connects>
+<connect gate="G$1" pin="3.3V@1" pad="3.3V@1"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
